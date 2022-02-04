@@ -4,7 +4,7 @@ function AppHome()
 {
     return(
         <div className="main">
-            <home/>
+            <AppHero/>
         </div>
     );
 }
