@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+.section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.main-heading{
+  color:rgb(204, 18, 18);
+  font-size:medium;
+}
+.underline{
+  height: 40px;
+  width:4rem;
+  background-color:blueviolet;
+  margin: top 10px;
+  margin: bottom 10px;
+}
+.bg-c-light{
+  background-color:#f2f2f2;
+}

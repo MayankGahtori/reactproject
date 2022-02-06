@@ -1,10 +1,10 @@
 import React from 'react';
-
+import vmc from './inc/vmc';
 
 function home(){
     return (
         <div>
-            <section className="section bg-light">
+            <section className="section bg-c-light">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 mb-12 text-dark">
@@ -19,6 +19,7 @@ function home(){
                     </div>
                 </div>
             </section>
+            <vmc />
         </div>
     );
 }
