@@ -1,16 +1,16 @@
-.App {
-  text-align: center;
+.section{
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-heading{
+  color: blue;
+  font-size: 40px;
+  font-style: italic;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.underline{
+  height: 04px;
+  width: 4rem;
+  background-color:red;
+  margin-top: 10px;
+  margin: bottom 10px;
 }
-
-
