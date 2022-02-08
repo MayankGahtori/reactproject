@@ -30,6 +30,35 @@ function Aboutus() {
                     </div>
                 </div>
             </section>
+            <section className="section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12" text-left>
+                            <h1 className="main-heading">Why CGI?</h1>
+                            <div className="underline"></div>
+                            <p className="text">
+                            CGI is a structured network of startups that facilitates Founders to network with other Entrepreneurs, Mentors, Investors, Job Seekers and Professionals. 
+                            The key to the success of all startups under us are the offerings we bring. 
+                            Being the biggest innovation accelerator we provide all our members with multiple premium services.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <h5 className="main">Global Approach</h5>
+                            <p>
+                            CGI is a global accelerator that provides a<br /> nurturing holistic environment
+                            for startups<br /> to attain their maximum potential. A<br /> platform supporting all 
+                            kinds of business,<br /> technical, scientific, agricultural,<br />  educational and what not.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 }
