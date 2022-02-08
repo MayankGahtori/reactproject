@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/inc/Navbar';
+
 
 import About from './components/pages/About';
 
@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div>
         
-        <Navbar />
+        
        
         <About />
        
