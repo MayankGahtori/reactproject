@@ -5,7 +5,7 @@ function Aboutus() {
         <div className="container">
             <div className="card mt-5">
             <div className="card-body">
-                <h2>About Us Page</h2>
+                <center><h2>About Us Page</h2></center>
             </div>
             </div>
         </div>
