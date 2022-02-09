@@ -53,7 +53,7 @@ function Aboutus() {
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card">
-                        <img src={Slider3} className="images" alt="..." />
+                        <img src={Slider3} className="images" alt="cinque terre" />
                             <div class="card-body">
                                 <h5 class="main-heading">Global Approach</h5>
                                 <p class="text">
