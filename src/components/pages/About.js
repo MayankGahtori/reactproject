@@ -92,7 +92,7 @@ function Aboutus() {
                 </div>
             </section>
             <center>
-                <h1>Management</h1>
+                <h1 className="main-heading">Management</h1>
             </center>
         </div>
     );
