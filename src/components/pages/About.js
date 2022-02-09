@@ -144,5 +144,4 @@ function Aboutus() {
         </div>
     );
 }
-
 export default Aboutus;
