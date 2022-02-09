@@ -2,6 +2,9 @@ import React from 'react';
 import Slider from '../inc/Slider';
 import Slider2 from '../images/Slider2.jpg';
 import Slider3 from '../images/Slider3.jpg';
+import Slider4 from '../images/Slider4.jpg';
+import Slider5 from '../images/Slider5.jpg';
+
 function Aboutus() {
     return(
         <div>
@@ -65,19 +68,24 @@ function Aboutus() {
                     </div>
                     <div class="col">
                         <div class="card">
-                        <img src="..." class="card-img-top" alt="..."/>
+                        <img src={Slider4} class="images" alt="..."/>
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 class="main-heading">Unlimited Opportunities</h5>
+                                <p class="text">
+                                From seed funding to mentoring to growth hacking. CGI offers all services so you donâ€™t lack behind when itâ€™s the time to touch great heights.
+                                 Our worldwide corporate connections help you generate business leads for your startup.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card">
-                        <img src="..." class="card-img-top" alt="..."/>
+                        <img src={Slider5} class="images" alt="..."/>
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                <h5 class="main-heading">Networks</h5>
+                                <p class="text">
+                                Entrepreneurs, mentors or investors, CGI has a global approach to back you up. With our around the world network, 
+                                we help you build your personal connections as well to grow your business..</p>
                             </div>
                         </div>
                     </div>
