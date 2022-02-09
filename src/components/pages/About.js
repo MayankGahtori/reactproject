@@ -139,8 +139,7 @@ function Aboutus() {
                             </p>
                         </div>
                     </div>
-                </div>
-                
+                </div>  
             </section>
         </div>
     );
