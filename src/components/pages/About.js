@@ -4,6 +4,7 @@ import Slider2 from '../images/Slider2.jpg';
 import Slider3 from '../images/Slider3.jpg';
 import Slider4 from '../images/Slider4.jpg';
 import Slider5 from '../images/Slider5.jpg';
+import Slider6 from '../images/Slider6.jpg';
 import nilesh from '../images/nilesh.jpg';
 import geetika from '../images/geetika.jpg';
 
@@ -140,6 +141,22 @@ function Aboutus() {
                         </div>
                     </div>
                 </div>  
+            </section>
+            <center>
+                <h1 className="main-heading">Innovators</h1>
+            </center>
+            <section className="section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12" text-left>
+                            <h3>Council of Innovators</h3>
+                            <p className="text">
+                                <img src={Slider6} className="image" alt="..." />
+                                Meet our Innovators
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     );
