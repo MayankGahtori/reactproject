@@ -91,6 +91,9 @@ function Aboutus() {
                     </div>
                 </div>
             </section>
+            <center>
+                <h1>Management</h1>
+            </center>
         </div>
     );
 }
