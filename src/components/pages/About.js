@@ -99,7 +99,7 @@ function Aboutus() {
                 <div className="container">
                     <div className="row">
                         <div class="text-center">
-                            <img src={nilesh} class="aimg-circle" alt="cinque terre"/>
+                            <img src={nilesh} class="img-circle" alt="cinque terre"/>
                             <h5>Nilesh Sinha</h5>
                             <h6>Chaiman</h6>
                             <p className="text">
