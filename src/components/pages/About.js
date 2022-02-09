@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from '../inc/Slider';
 import Slider2 from '../images/Slider2.jpg';
+import Slider3 from '../images/Slider3.jpg';
 function Aboutus() {
     return(
         <div>
@@ -46,15 +47,38 @@ function Aboutus() {
                 </div>
             </section>
             <section className="section">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <h5 className="main">Global Approach</h5>
-                            <p>
-                            CGI is a global accelerator that provides a<br /> nurturing holistic environment
-                            for startups<br /> to attain their maximum potential. A<br /> platform supporting all 
-                            kinds of business,<br /> technical, scientific, agricultural,<br />  educational and what not.
-                            </p>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                        <img src={Slider3} className="images" alt="..." />
+                            <div class="card-body">
+                                <h5 class="main-heading">Global Approach</h5>
+                                <p class="text">
+                                CGI is a global accelerator that provides a<br />
+                                nurturing holistic environment for startups<br/> 
+                                to attain their maximum potential. A platform supporting all kinds of business,<br/> 
+                                technical, scientific, agricultural,<br/> 
+                                educational and what not.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                        <img src="..." class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                        <img src="..." class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
