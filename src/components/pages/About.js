@@ -56,7 +56,7 @@ function Aboutus() {
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card">
-                        <img src={Slider3} className="images" alt="cinque terre" />
+                        <img src={Slider3} className="img" alt="Avatar" />
                             <div class="card-body">
                                 <h5 class="main-heading">Global Approach</h5>
                                 <p class="text">
@@ -71,7 +71,7 @@ function Aboutus() {
                     </div>
                     <div class="col">
                         <div class="card">
-                        <img src={Slider4} class="images" alt="..."/>
+                        <img src={Slider4} class="img" alt="Avatar"/>
                             <div class="card-body">
                                 <h5 class="main-heading">Unlimited Opportunities</h5>
                                 <p class="text">
@@ -83,7 +83,7 @@ function Aboutus() {
                     </div>
                     <div class="col">
                         <div class="card">
-                        <img src={Slider5} class="images" alt="..."/>
+                        <img src={Slider5} class="img" alt="Avatar"/>
                             <div class="card-body">
                                 <h5 class="main-heading">Networks</h5>
                                 <p class="text">
@@ -101,7 +101,7 @@ function Aboutus() {
                 <div className="container">
                     <div className="row">
                         <div class="text-center">
-                            <img src={nilesh} className="img-circle" alt="cinque terre"/>
+                            <img src={nilesh} className="img" alt="Avatar"/>
                             <h5>Nilesh Sinha</h5>
                             <h6>Chaiman</h6>
                             <p className="text">
@@ -121,7 +121,7 @@ function Aboutus() {
                             a guest speaker at 40+ schools, colleges and educational institutions impacting the life of more than Sixty thousand learners 
                             and innovators.
                             </p>
-                            <img src={geetika} className="img-circle" alt="cinque terre"/>
+                            <img src={geetika} className="img" alt="Avatar"/>
                             <h5>Er. Geetika Pandey</h5>
                             <h6>President</h6>
                             <p className="text">
