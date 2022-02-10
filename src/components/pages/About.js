@@ -149,7 +149,7 @@ function Aboutus() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12" text-left>
-                            <h3>Council of Innovators</h3>
+                            <h2 class="h2">Council of Innovators</h2>
                             <p className="text">
                                 <img src={Slider6} className="imgs" alt="Avatar" />
                                 Meet our Innovators
