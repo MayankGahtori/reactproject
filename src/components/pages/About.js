@@ -151,7 +151,7 @@ function Aboutus() {
                         <div className="col-md-12" text-left>
                             <h3>Council of Innovators</h3>
                             <p className="text">
-                                <img src={Slider6} className="image" alt="..." />
+                                <img src={Slider6} className="imgs" alt="Avatar" />
                                 Meet our Innovators
                             </p>
                         </div>
