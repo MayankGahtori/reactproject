@@ -158,6 +158,32 @@ function Aboutus() {
                     </div>
                 </div>
             </section>
+            <section className="section">
+                <div className="container">
+                    <div className="row">
+                        <div class="text-center">
+                            <img src={nilesh} className="img" alt="Avatar"/>
+                            <h5>Nilesh Sinha</h5>
+                            
+                            <p className="text">
+                            Mr. Nilesh Sinha is an E-governance and Financial Inclusion professional with years of experience in the \
+                            ecosystem, specially in India and Asia Pacific. Specialized in networking and communicating with institutions 
+                            and authorities and recipient of 3rd position in the International Innovation Fair 2017, Vizag
+                           
+                            </p>
+                            <img src={geetika} className="img" alt="Avatar"/>
+                            <h5>Er. Geetika Pandey</h5>
+                            
+                            <p className="text">
+                            A Technology enthusiast, Er. Geetika Pandey was one of the top scorers of her city during matriculation examination. 
+                            Consistently being exceptionally well in academia, her core competency lies in the strong domain knowledge. 
+                            Apart from studies, she is extremely friendly as well as amaible in nature and has well handles the onboarding 
+                            and operational process of CGI at such a young age. She is also one of the few founding members of CGI
+                            </p>
+                        </div>
+                    </div>
+                </div>  
+            </section>
         </div>
     );
 }
