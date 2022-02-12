@@ -7,7 +7,8 @@ import Slider5 from '../images/Slider5.jpg';
 import Slider6 from '../images/Slider6.jpg';
 import nilesh from '../images/nilesh.jpg';
 import geetika from '../images/geetika.jpg';
-
+import priyanka from '../images/priyanka.jpg';
+import Sailesh from '../images/Sailesh.jpg';
 function Aboutus() {
     return(
         <div>
@@ -168,17 +169,30 @@ function Aboutus() {
                             <p className="text">
                             Mr. Nilesh Sinha is an E-governance and Financial Inclusion professional with years of experience in the \
                             ecosystem, specially in India and Asia Pacific. Specialized in networking and communicating with institutions 
-                            and authorities and recipient of 3rd position in the International Innovation Fair 2017, Vizag
-                           
+                            and authorities and recipient of 3rd position in the International Innovation Fair 2017, Vizag.
                             </p>
                             <img src={geetika} className="img" alt="Avatar"/>
                             <h5>Er. Geetika Pandey</h5>
-                            
                             <p className="text">
                             A Technology enthusiast, Er. Geetika Pandey was one of the top scorers of her city during matriculation examination. 
                             Consistently being exceptionally well in academia, her core competency lies in the strong domain knowledge. 
                             Apart from studies, she is extremely friendly as well as amaible in nature and has well handles the onboarding 
                             and operational process of CGI at such a young age. She is also one of the few founding members of CGI
+                            </p>
+                            <img src={priyanka} className="img" alt="Avatar"/>
+                            <h5>Priyanka Pandey</h5>
+                            <p className="text">
+                            She evaluates her nature of work and on the off chance that she is not fulfilled again she gets to her expertise until to nature of work.
+                            CGI is platform where all innovators are meet and she is the one of them. Priyanka is a womentrepreneur with vision , 
+                            mission and lessons to grow with CGI.
+                            </p>
+                            <img src={Sailesh} className="img" alt="Avatar"/>
+                            <h5>Sailesh Sinha</h5>
+                            <p className="text">
+                            A mechanical engineering graduate. Has interest in teaching and public policy. When not doing that you can find him going through all kinds of 
+                            tech news. A former competitive debator, he loves reading didactic and academic literature. Has worked with the district administration for the 
+                            implementation of digital India and raising awareness about digital transactions. Has worked with various government agencies and District 
+                            Administration departments in spreading education to the underprivileged.
                             </p>
                         </div>
                     </div>
