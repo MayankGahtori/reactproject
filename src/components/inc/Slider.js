@@ -6,9 +6,7 @@ function Slider(){
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src={Slider1} class="d-block w-100" alt="..."/>
-
-                    
+                    <img src={Slider1} class="d-block w-100" alt="..."/>     
                 </div>
             </div>
         </div>
