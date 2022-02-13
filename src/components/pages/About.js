@@ -5,6 +5,14 @@ import Slider3 from '../images/Slider3.jpg';
 import Slider4 from '../images/Slider4.jpg';
 import Slider5 from '../images/Slider5.jpg';
 import Slider6 from '../images/Slider6.jpg';
+import Slider7 from '../images/Slider7.jpg';
+import Slider8 from '../images/Slider8.jpg';
+import Slider9 from '../images/Slider9.jpg';
+import Slider10 from '../images/Slider10.jpg';
+import Slider11 from '../images/Slider11.jpg';
+import Slider12 from '../images/Slider12.jpg';
+import Slider13 from '../images/Slider13.jpg';
+import Slider14 from '../images/Slider14.jpg';
 import nilesh from '../images/nilesh.jpg';
 import geetika from '../images/geetika.jpg';
 import priyanka from '../images/priyanka.jpg';
@@ -148,8 +156,8 @@ function Aboutus() {
             </center>
             <section className="section">
                 <div className="container">
-                    <div className="rows">
-                        <div className="col-md-12" text-left>
+                    <div className="row">
+                        <div className="col-md-12" text-center-left>
                             <h2 class="h2">Council of Innovators</h2>
                             <p className="text">
                                 <img src={Slider6} className="imgs" alt="Avatar" />
@@ -193,6 +201,37 @@ function Aboutus() {
                             tech news. A former competitive debator, he loves reading didactic and academic literature. Has worked with the district administration for the 
                             implementation of digital India and raising awareness about digital transactions. Has worked with various government agencies and District 
                             Administration departments in spreading education to the underprivileged.
+                            </p>
+                        </div>
+                    </div>
+                </div>  
+            </section>
+            <center>
+                <h1 className="main-heading">Partner And Associates</h1>
+            </center>
+            <section className="section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12" text-center-left>
+                            <h2 class="h2">Partners and Associates</h2>
+                            <img src={Slider7} className="imgs" alt="Avatar" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="section">
+                <div className="container">
+                    <div className="row">
+                        <div class="text-center">
+                        <h1 className="main-heading">Chandigarh University</h1>
+                            <div className="underline"></div>
+                            <p className="text">
+                                <img src={Slider8} className="slider" alt="..." />
+                               
+                                Since its inception Chandigarh University has aimed to improve employment opportunities 
+                                for the people and to support the community by providing access to relevant applied knowledge. 
+                                A unique platform that facilitates students and peers to the process of product development, 
+                                business development and entrepreneurship
                             </p>
                         </div>
                     </div>
