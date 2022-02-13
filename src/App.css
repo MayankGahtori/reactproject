@@ -39,4 +39,10 @@
   margin-bottom: 50px;
 
 }
+.rows{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 

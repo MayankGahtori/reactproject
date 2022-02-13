@@ -148,7 +148,7 @@ function Aboutus() {
             </center>
             <section className="section">
                 <div className="container">
-                    <div className="row">
+                    <div className="rows">
                         <div className="col-md-12" text-left>
                             <h2 class="h2">Council of Innovators</h2>
                             <p className="text">
