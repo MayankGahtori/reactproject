@@ -16,7 +16,7 @@
 }
 .text{
   font-size:20px;
-  font-weight:bold;
+
   height: large;
 }
 .image{
@@ -41,5 +41,10 @@
   float: center;
   margin-bottom: 50px;
 
+}
+.sli{
+  float: left;
+  padding-left:40px;
+  height: large;
 }
 
