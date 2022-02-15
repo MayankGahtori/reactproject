@@ -235,6 +235,8 @@ function Aboutus() {
                             
                         </div>
                         <div class="text-right"> 
+                        <br/>
+                        <br/>
                         <h4 className="main-heading">Sewapoint</h4>
                         <p className="text">
                         <img src={Slider9} className="image" alt="..." />
@@ -277,6 +279,30 @@ function Aboutus() {
                         and upgraded. Every time you log in, you will see the best and rare technologies, which have 
                         been compromised or suppressed under our daily schedules.
                         </p>
+                        </div>
+                        <div class="text-right">
+                            <br/>
+                            <br/>
+                            <h4 className="main-heading">CUEats</h4>
+                            <p className="text">
+                                <img src={Slider13} className="image" alt=""/>
+                                IA food delivery startup for campuses. Get hot fresh food deivered directly to your hostel doorstep. 
+                                Partnering with all the canteens in the campus, they make sure to give you delicious perfectly 
+                                cooked meal from your choice of canteen directly at your doorstep with 0 additional charges.
+                            </p>
+                        </div>
+                        <div class="text-left">
+                            <br/>
+                            <br/>
+                            <h4 className="main-heading">CompareSathi</h4>
+                            <p class="text">
+                            <img src={Slider14} className="sli" alt=""/>
+                            <br/>
+                            <br/>
+                            Comparesathi is a rapidly growing company.It is an advanced product search engine to search for products 
+                            and compare them from different websites i.e Amazon, Flipkart, snapdeal, jaboong, myntra...and many more. 
+                            We have also tied up with these brands to provide you cashback on every purchase you make through us.
+                            </p>
                         </div>
                     </div>
                 </div>  
