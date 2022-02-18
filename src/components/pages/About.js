@@ -50,7 +50,7 @@ function Aboutus() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12" text-left>
-                            <h1 className="main-heading">What we d?</h1>
+                            <h1 className="main-heading">What we do?</h1>
                             <div className="underline"></div>
                             <p className="text">
                             CGI is a structured network of startups that facilitates Founders to network with other Entrepreneurs, Mentors, Investors, Job Seekers and Professionals. 
@@ -110,37 +110,41 @@ function Aboutus() {
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card">
-                    <img src={nilesh} className="img" alt="Avatar"/>
+                    <img src={nilesh} className="rounded float-start" alt="Avatar"/>
                         <div class="card-body">
                             <h5>Nilesh Sinha</h5>
                             <h6>Chairman</h6>
-                            <p class="text">
+                            <p class="text-center-left">
                             With his 1st startup at an age of 14 years, Mr. Nilesh Sinha has an experience of working with many
                             startups. As an E-governance and Financial Inclusion professional with years of experience in the 
                             ecosystem, especially in India, he is specialized in networking and communicating with institutions 
                             and authorities. Recipient of 3rd position in the International Innovation Fair 2017, Vizag, Mr. Sinha 
                             has been regularly invited as a guest speaker and panelist for various corporate events and panel discussions. 
                             In his unique approach, he emphasizes on empowering the innovators. He says that a true innovator can be anyone 
-                            from any professional, geographical or other background. In his version, a five-year-old kid practicing python 
-                            to a 67 years old Colonel Sanders opening world’s most liked chicken restaurant chain, every person with a 
-                            unique approach or solution is an innovator. Also being a trained Hindustani Classical singer, Mr. Sinha promotes 
-                            living a life with a balance among all the aspects of life including the professional commitments, paying proper 
-                            attentions towards your hobbies to respecting your friends and family members. This is what he considers as his 
-                            success mantra for wining many National level competitions and titles. He regularly writes blogs and articles 
-                            based on the current startup and corporate ecosystem as well as on latest academic and technological trends on global 
-                            perspective (like: Blockchain, IoT, Big Data etc.) On his mission of Gamification of Innovation, he has so far been a 
-                            guest speaker at 40+ schools, colleges and educational institutions impacting the life of more than Sixty thousand learners 
-                            and innovators.
+                            from any professional, geographical or other background.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                    <img src="..." class="card-img-top" alt="..."/>
+                    <img src={geetika} className="rounded float-start" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5>Er.Geetika Pandey</h5>
+                            <h6>President</h6>
+                            <p class="text-center-left">
+                            Completed Btech-CSE in the year 2016 and has the vibrant experience in IT field. 
+                            Also has 3+ years’ experience in corporate world. Her goal is to hold a Senior 
+                            Corporate position along with being a Philanthropist. She had a very sound 
+                            communication and Technical skills and regularly participate as an invited/guest 
+                            delegate in many IT Conclave, Summit and Sessions organized by FICCI, CII, ASSOCHAM, 
+                            ICC etc. Experienced Software Engineer with a demonstrated history of working in 
+                            Computer Software Industry, she has also completed her MBA in Business Analytics 
+                            and Human Resource in the year 2020. As far as the Analytical expertise is concerned, 
+                            she is good in data collection, preparation and cleansing and working on a software like 
+                            Watson, Cognos, SPSS and Google Analytics. Er. Geetika Pandey is also the Co-Founder and 
+                            HOD (IT Departt.), SewaPoint.
+                            </p>
                         </div>
                     </div>
                 </div>
