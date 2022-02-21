@@ -1,10 +1,11 @@
 import React from 'react';
 import Slider1 from '../images/Slider1.jpg';
-import './App.css';
+
 
 function Aboutus() {
     return(
         <div class="slider">
+          
         <div id="Captions" class="slide" data-ride="carousel">
             <div class="inner">
                 <div class="active">
