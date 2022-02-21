@@ -13,6 +13,7 @@ import Slider11 from '../images/Slider11.jpg';
 import Slider12 from '../images/Slider12.jpg';
 import Slider13 from '../images/Slider13.jpg';
 import Slider14 from '../images/Slider14.jpg';
+import Slider15 from '../images/Slider15.jpg';
 import nilesh from '../images/nilesh.jpg';
 import geetika from '../images/geetika.jpg';
 import priyanka from '../images/priyanka.jpg';
@@ -53,9 +54,11 @@ function Aboutus() {
                             <h1 className="main-heading">What we do?</h1>
                             <div className="underline"></div>
                             <p className="text">
-                            CGI is a structured network of startups that facilitates Founders to network with other Entrepreneurs, Mentors, Investors, Job Seekers and Professionals. 
-                            The key to the success of all startups under us are the offerings we bring. 
-                            Being the biggest innovation accelerator we provide all our members with multiple premium services.
+                            <img src={Slider15} class="image" alt="..."/>
+                            CGI is a structured network of startups that facilitates Founders to network with other<br/>
+                            Entrepreneurs, Mentors, Investors, Job Seekers and Professionals. The key to the success<br/>
+                            of all startups under us are the offerings we bring. Being the biggest innovation<br/> 
+                            accelerator we provide all our members with multiple premium services
                             </p>
                         </div>
                     </div>

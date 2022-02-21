@@ -16,8 +16,8 @@
 }
 .text{
   font-size:20px;
-
-  height: large;
+  text-align: justify;
+  
 }
 .image{
   float: right;
