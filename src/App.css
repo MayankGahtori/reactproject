@@ -1,55 +1,44 @@
-.section{
-  padding-bottom: 40px;
-  padding-top: 40px;
+slider 
+{ 
+  float: left; 
+  width: 100%; 
+  max-height: 600px; 
+  overflow: hidden; 
+  background-color: #f7f7f7; 
+  position: relative; 
 }
-.main-heading{
-  color: blue;
-  font-size: 40px;
-  font-style: italic;
+slider:before 
+{ 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  background: rgba(40, 23, 62, 0.62); 
+  z-index: 1; 
+  content: ""; 
 }
-.underline{
-  height: 04px;
-  width: 4rem;
-  background-color:red;
-  margin-top: 10px;
-  margin: bottom 10px;
-}
-.text{
-  font-size:20px;
-  text-align: justify;
-  
-}
-.image{
-  float: right;
-  padding-left:40px;
-  height: medium;
-}
-.slider{
-  float: left;
-}
-.images{
-  height:250px;
-  
-}
-.img{
-  border-radius: 50%;
-}
-.imgs{
-  float:right;
-}
-.h2{
-  float: center;
-  margin-bottom: 50px;
-
-}
-.sli{
-  float: left;
-  padding-left:40px;
-  height: large;
-}
-.imgs{
-  border-radius: 30%;
-}
-
+slider .caption 
+{ top: 13%; 
+  text-align: left; 
+  left: 9%; }
+@media only screen and (max-width: 991.98px) { .slider .caption { left: 10%; top: 18%; } }
+@media only screen and (max-width: 767.98px) { .slider .caption { left: 15px; top: 15%; padding: 10px 0; } }
+@media only screen and (max-width: 500.98px) { .slider .caption { left: 15px; top: 0%; } }
+@media only screen and (max-width: 767.98px) { .slider .caption .col-md-8 { margin-top: 0 !important; } }
+.slider .caption h5 { color: #EFA506; font-size: 40px; font-weight: 200; font-family: "Nunito", sans-serif; }
+@media only screen and (max-width: 1199.98px) { .slider .-caption h5 { font-size: 3rem; margin-bottom: 0; } }
+@media only screen and (max-width: 991.98px) { .slider .caption h5 { font-size: 2.7rem; margin-bottom: 0; } }
+@media only screen and (max-width: 575.98px) { .slider .caption h5 { font-size: 1.5rem; margin-bottom: 0; } }
+.slider .caption p { margin-top: 15px; font-size: 38px; float: left; font-weight: 400; color: #fff; width: 100%; line-height: 4.5rem; }
+@media only screen and (max-width: 991.98px) { .slider .caption p { font-size: 1.5rem; line-height: normal; } }
+@media only screen and (max-width: 575.98px) { .slider .caption p { font-size: 14px; } }
+.slider .caption p em { background-color: #BF1E23; font-style: normal; padding: 15px 15px 10px; text-transform: uppercase; }
+@media only screen and (max-width: 991.98px) { .slider .caption p em { background-color: transparent; padding: 0; } }
+.slider .caption p span { color: #EFA506; }
+.slider .caption { font-size: 18px; padding: 10px 30px; border-radius: 30px; display: inline-block; transition: all ease-in-out 0.2s; font-weight: bold; }
+.slider .caption { background-image: url(../images/Slider1.jpg); background-size: cover; background-position: center center; padding: 40px; }
+@media only screen and (max-width: 991.98px) { .slider { display: none; } }
+.slider  { border-radius: 0; background-color: rgba(255, 255, 255, 0.5); color: #fff; font-size: 16px; height: auto; padding: 0.6rem 0.75rem; border: 0; }
 
 
