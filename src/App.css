@@ -28,12 +28,11 @@
   float: left;
 }
 .images{
-  height:450px;
+  height:250px;
   
 }
 .img{
   border-radius: 50%;
-
 }
 .imgs{
   float:right;
@@ -51,4 +50,6 @@
 .imgs{
   border-radius: 30%;
 }
+
+
 

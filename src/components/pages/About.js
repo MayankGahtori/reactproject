@@ -1,9 +1,7 @@
 import React from 'react';
 import Slider from '../inc/Slider';
 import Slider2 from '../images/Slider2.jpg';
-import Slider3 from '../images/Slider3.jpg';
-import Slider4 from '../images/Slider4.jpg';
-import Slider5 from '../images/Slider5.jpg';
+
 import Slider6 from '../images/Slider6.jpg';
 import Slider7 from '../images/Slider7.jpg';
 import Slider8 from '../images/Slider8.jpg';
@@ -55,105 +53,36 @@ function Aboutus() {
                             <div className="underline"></div>
                             <p className="text">
                             <img src={Slider15} class="image" alt="..."/>
-                            CGI is a structured network of startups that facilitates Founders to network with other<br/>
-                            Entrepreneurs, Mentors, Investors, Job Seekers and Professionals. The key to the success<br/>
-                            of all startups under us are the offerings we bring. Being the biggest innovation<br/> 
+                            CGI is a structured network of startups that facilitates Founders to network with other
+                            Entrepreneurs, Mentors, Investors, Job Seekers and Professionals. The key to the success
+                            of all startups under us are the offerings we bring. Being the biggest innovation
                             accelerator we provide all our members with multiple premium services
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
+            
+            <center>
+                <h1 className="main-heading">Management</h1>
+            </center>
             <section className="section">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                        <div class="card">
-                        <img src={Slider3} className="img" alt="Avatar" />
-                            <div class="card-body">
-                                <h5 class="main-heading">Global Approach</h5>
-                                <p class="text">
-                                CGI is a global accelerator that provides a<br />
-                                nurturing holistic environment for startups
-                                to attain their maximum potential. A platform supporting all kinds of business,
-                                technical, scientific, agricultural,<br/> 
-                                educational and what not.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                        <img src={Slider4} class="img" alt="Avatar"/>
-                            <div class="card-body">
-                                <h5 class="main-heading">Unlimited Opportunities</h5>
-                                <p class="text">
-                                From seed funding to mentoring to growth hacking. CGI offers all services so you donâ€™t lack behind when itâ€™s the time to touch great heights.
-                                 Our worldwide corporate connections help you generate business leads for your startup.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                        <img src={Slider5} class="img" alt="Avatar"/>
-                            <div class="card-body">
-                                <h5 class="main-heading">Networks</h5>
-                                <p class="text">
-                                Entrepreneurs, mentors or investors, CGI has a global approach to back you up. With our around the world network, 
-                                we help you build your personal connections as well to grow your business..</p>
-                            </div>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12" text-left>
+                            <p className="text">
+                            <img src={nilesh} class="imgs" alt="Avatar"/>
+                            <h5>Nilesh Sinha</h5>
+                            <h6>Chairman</h6>
+                            CGI is a structured network of startups that facilitates Founders to network with other
+                            Entrepreneurs, Mentors, Investors, Job Seekers and Professionals. The key to the success
+                            of all startups under us are the offerings we bring. Being the biggest innovation
+                            accelerator we provide all our members with multiple premium services
+                            </p>
                         </div>
                     </div>
                 </div>
             </section>
-            <center>
-                <h1 className="main-heading">Management</h1>
-            </center>
-        <section className="section">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card">
-                    <img src={nilesh} className="rounded float-start" alt="Avatar"/>
-                        <div class="card-body">
-                            <h5>Nilesh Sinha</h5>
-                            <h6>Chairman</h6>
-                            <p class="text-center-left">
-                            With his 1st startup at an age of 14 years, Mr. Nilesh Sinha has an experience of working with many
-                            startups. As an E-governance and Financial Inclusion professional with years of experience in the 
-                            ecosystem, especially in India, he is specialized in networking and communicating with institutions 
-                            and authorities. Recipient of 3rd position in the International Innovation Fair 2017, Vizag, Mr. Sinha 
-                            has been regularly invited as a guest speaker and panelist for various corporate events and panel discussions. 
-                            In his unique approach, he emphasizes on empowering the innovators. He says that a true innovator can be anyone 
-                            from any professional, geographical or other background.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                    <img src={geetika} className="rounded float-start" alt="..."/>
-                        <div class="card-body">
-                            <h5>Er.Geetika Pandey</h5>
-                            <h6>President</h6>
-                            <p class="text-center-left">
-                            Completed Btech-CSE in the year 2016 and has the vibrant experience in IT field. 
-                            Also has 3+ years’ experience in corporate world. Her goal is to hold a Senior 
-                            Corporate position along with being a Philanthropist. She had a very sound 
-                            communication and Technical skills and regularly participate as an invited/guest 
-                            delegate in many IT Conclave, Summit and Sessions organized by FICCI, CII, ASSOCHAM, 
-                            ICC etc. Experienced Software Engineer with a demonstrated history of working in 
-                            Computer Software Industry, she has also completed her MBA in Business Analytics 
-                            and Human Resource in the year 2020. As far as the Analytical expertise is concerned, 
-                            she is good in data collection, preparation and cleansing and working on a software like 
-                            Watson, Cognos, SPSS and Google Analytics. Er. Geetika Pandey is also the Co-Founder and 
-                            HOD (IT Departt.), SewaPoint.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-  
             <center>
                 <h1 className="main-heading">Innovators</h1>
             </center>
