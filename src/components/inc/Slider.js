@@ -14,6 +14,7 @@ function Slider(){
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src={Slider1} class="images" alt="..."/>
+      
     </div>
     <div class="carousel-item">
       <img src={Slider2} class="images" alt="..."/>
