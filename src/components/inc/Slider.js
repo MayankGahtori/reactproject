@@ -3,10 +3,10 @@ import Slider1 from '../images/Slider1.jpg';
 import Slider2 from '../images/Slider2.jpg';
 function Slider(){
     return(
-      <div>
-            <Slider/>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
+            <div>
+              <Slider/>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 </div>
@@ -26,7 +26,7 @@ function Slider(){
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+            </div>
       </div>
     );
 }
