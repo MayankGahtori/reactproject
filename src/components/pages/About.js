@@ -89,13 +89,13 @@ function Aboutus() {
                             Sustainable growth and development
                         </p>
                         </div>
-                        
                     </div>
                 </div>
             </section>
-        </section>
-            
-            
+            <center>
+                <h1 className="main-heading">Managment</h1>
+            </center>
+        </section>  
     );
 }
 export default Aboutus;
