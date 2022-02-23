@@ -1,5 +1,8 @@
 import React from 'react';
 import Slider1 from '../images/Slider1.jpg'
+import Slider2 from '../images/Slider2.jpg'
+import Slider3 from '../images/Slider3.jpg'
+import Slider4 from '../images/Slider4.jpg'
 function Aboutus() {
     return(
       <section className="section">
@@ -25,7 +28,39 @@ function Aboutus() {
                         </div>
                     </div>
                 </div>
+                <section className="section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12" text-left>
+                            <h1 className="main-heading">Why CGI?</h1>
+                        </div>
+                    </div>
+                    <div class="card-group">
+                        <div class="card">
+                        <img src={Slider2} className="img" alt="..." />
+                            <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                        <img src={Slider3} className="image" alt="..." />
+                            <div class="card-body">
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                    <img src={Slider4} className="image" alt="..." />
+                        <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+   
+                    </div>
+                </div>
+            </div>
             </section>
+        </section>
+            
+            
     );
 }
 export default Aboutus;
