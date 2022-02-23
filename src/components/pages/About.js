@@ -5,9 +5,8 @@ function Aboutus() {
       <section className="section">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-12">
+                        <div class="text-right">
                             <h1 className="main-heading">Who Are We?</h1>
-                            <div className="underline"></div>
                             <p className="text">
                                 <img src={Slider1} className="image" alt="..." />
                                 The Confederation of Global Innovators (also known as CGI) 

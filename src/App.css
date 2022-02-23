@@ -3,17 +3,14 @@
     padding-top: 40px;
   }
   .main-heading{
-    color: blue;
-    font-size: 40px;
-    font-style: italic;
-    float:center;
-  }
-  .underline{
-    height: 04px;
-    width: 4rem;
-    background-color:red;
-    margin-top: 10px;
-    margin: bottom 10px;
+    color: #BF1E23;
+    font-size: 27px;
+    font-family: "Nunito", sans-serif;
+    float: left;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 0.56rem;
+
   }
   .text{
     font-size:20px;
