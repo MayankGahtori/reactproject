@@ -16,16 +16,19 @@
     font-size:20px;
     text-align:justify;
     height: large;
+    
   }
   .image{
     float:left;
     padding-left:40px;
     height: medium;
+  
   }
   .img{
     height: 150px;
     width: 150px;
     text-align:center;
+    margin-left:20%
   }
    
 
