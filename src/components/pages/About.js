@@ -8,6 +8,7 @@ import Slider6 from '../images/Slider6.jpg'
 import Slider7 from '../images/Slider7.jpg'
 import Slider8 from '../images/Slider8.jpg'
 import Slider9 from '../images/Slider9.jpg'
+import nilesh from '../images/nilesh.jpg'
 function Aboutus() {
     return(
       <section className="section">
@@ -95,6 +96,26 @@ function Aboutus() {
             <center>
                 <h1 className="main-heading">Managment</h1>
             </center>
+            <section className="section">
+                <div className="container">
+                    <div className="row">
+                    
+                        <div className="col-sm-9">
+                        <p className="text">
+                        With his 1st startup at an age of 14 years, Mr. Nilesh Sinha has an experience of working with many startups. As an E-governance and Financial Inclusion professional with years of experience in the ecosystem, especially in India, he is specialized in networking and communicating with institutions and authorities. Recipient of 3rd position in the International Innovation Fair 2017, Vizag, Mr. Sinha has been regularly invited as a guest speaker and panelist for various corporate events and panel discussions. In his unique approach, he emphasizes on empowering the innovators. He says that a true innovator can be anyone from any professional, geographical or other background. In his version, a five-year-old kid practicing python to a 67 years old Colonel Sanders opening world’s most liked chicken restaurant chain, every person with a unique approach or solution is an innovator. Also being a trained Hindustani Classical singer, Mr. Sinha promotes living a life with a balance among all the aspects of life including the professional commitments, paying proper attentions towards your hobbies to respecting your friends and family members. This is what he considers as his success mantra for wining many National level competitions and titles. He regularly writes blogs and articles based on the current startup and corporate ecosystem as well as on latest academic and technological trends on global perspective (like: Blockchain, IoT, Big Data etc.) On his mission of Gamification of Innovation, he has so far been a guest speaker at 40+ schools, colleges and educational institutions impacting the life of more than Sixty thousand learners and innovators.
+                        </p>
+                        <div className="images">
+                           
+                            <span className="person-image mb-2">
+                                <img src={nilesh} alt="srcset"/>
+                            </span>
+                            <p className="personName">Nilesh Sinha</p>
+                            <p className="g">Chairman</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>  
     );
 }
