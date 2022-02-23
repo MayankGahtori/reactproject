@@ -5,7 +5,7 @@ function Aboutus() {
       <section className="section">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-12" text-left>
+                        <div className="col-md-12">
                             <h1 className="main-heading">Who Are We?</h1>
                             <div className="underline"></div>
                             <p className="text">
