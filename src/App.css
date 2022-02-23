@@ -1,0 +1,33 @@
+.container {
+    max-width: 1170px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+}
+.page-heading {
+    color: #BF1E23;
+    font-size: 27px;
+    font-family: "Nunito", sans-serif;
+    float: right;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 0.56rem;
+}
+.section {
+    float: right;
+    width: 100%;
+    padding: 6rem 0rem;
+}
+.text{
+    float: right;
+    text-align:justify;
+}
+.img{
+    float: left;
+}
