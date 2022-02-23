@@ -25,12 +25,13 @@
     padding: 6rem 0rem;
 }
 .text{
-    font-size: 17px;
-    color: #575757;
-    font-family: "Open Sans", sans-serif;
     
-    width: 100%;
-    line-height: 37px;
+        font-size: 17px;
+        color: #575757;
+        font-family: "Open Sans", sans-serif;
+        float: left;
+        width: 100%;
+        line-height: 37px;
     text-align:justify;
 }
 .img{
