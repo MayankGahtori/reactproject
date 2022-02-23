@@ -23,11 +23,10 @@
     height: medium;
   }
   .img{
-    margin-bottom: 1.5rem !important;
-    
-    vertical-align: middle;
-    border-style: none;
-}
+    height: 150px;
+    width: 150px;
+  }
+   
 
 
   

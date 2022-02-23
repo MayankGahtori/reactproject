@@ -3,6 +3,11 @@ import Slider1 from '../images/Slider1.jpg'
 import Slider2 from '../images/Slider2.jpg'
 import Slider3 from '../images/Slider3.jpg'
 import Slider4 from '../images/Slider4.jpg'
+import Slider5 from '../images/Slider5.jpg'
+import Slider6 from '../images/Slider6.jpg'
+import Slider7 from '../images/Slider7.jpg'
+import Slider8 from '../images/Slider8.jpg'
+import Slider9 from '../images/Slider9.jpg'
 function Aboutus() {
     return(
       <section className="section">
@@ -35,28 +40,58 @@ function Aboutus() {
                             <h1 className="main-heading">Why CGI?</h1>
                         </div>
                     </div>
-                    <div class="card-group">
-                        <div class="card">
+                    <div className="row">
+                        <div className="col-md-4">
                         <img src={Slider2} className="img" alt="..." />
-                            <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
+                        <p className="text">
+                            Diverse and upgraded environment
+                        </p>
                         </div>
-                        <div class="card">
-                        <img src={Slider3} className="image" alt="..." />
-                            <div class="card-body">
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <div className="col-md-4">
+                        <img src={Slider3} className="img" alt="..." />
+                        <p className="text">
+                            Global networking opportunities
+                        </p>
                         </div>
-                    </div>
-                    <div class="card">
-                    <img src={Slider4} className="image" alt="..." />
-                        <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <div className="col-md-4">
+                        <img src={Slider4} className="img" alt="..." />
+                        <p className="text">
+                            Particaption in worldwide event
+                        </p>
                         </div>
-   
+                        <div className="col-md-4">
+                        <img src={Slider5} className="img" alt="..." />
+                        <p className="text">
+                           Knowledge about technicalities and regulation
+                        </p>
+                        </div>
+                        <div className="col-md-4">
+                        <img src={Slider6} className="img" alt="..." />
+                        <p className="text">
+                           Organizing seminar and workshops
+                        </p>
+                        </div>
+                        <div className="col-md-4">
+                        <img src={Slider7} className="img" alt="..." />
+                        <p className="text">
+                           Interaction with influential personalities
+                        </p>
+                        </div>
+                        <div className="col-md-4">
+                        <img src={Slider8} className="img" alt="..." />
+                        <p className="text">
+                            Interaction with sponsors and associates
+                        </p>
+                        </div>
+                        <div className="col-md-4">
+                        <img src={Slider9} className="img" alt="..." />
+                        <p className="text">
+                            Sustainable growth and development
+                        </p>
+                        </div>
+                        
                     </div>
                 </div>
-            </div>
             </section>
         </section>
             
