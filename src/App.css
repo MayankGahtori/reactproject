@@ -76,6 +76,29 @@
 .g{
   text-align: center;
 }
+.ig{
+    height: 130px;
+    width: 130px;
+    border: solid 5px #BF1E23;
+    border-radius: 50%;
+    display: inline-block;
+    text-align:center;
+
+    
+  }
+  .h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #BF1E23;
+    margin-bottom: 0;
+    line-height: 27px;
+    margin-right: 10px;
+    font-family: "Open Sans", sans-serif;
+    float: left;
+    width: 100%;
+  }
+
 
 
 

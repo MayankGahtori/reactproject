@@ -167,7 +167,20 @@ function Aboutus() {
                     </div>
                 </div>
         </section>
-        
+        <section class="section">
+            <div className="container">
+                <div className="row">
+                    <div className="text-right">
+                        <h1 className="main-heading"> Council of Innovators</h1>
+                        <p className="text">
+                            <p className="h3">Nilesh Sinha</p>
+                            <img src={nilesh} className="ig" alt=""/>
+                          
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
         </section>  
     );
 }
