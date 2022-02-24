@@ -6,7 +6,7 @@
     color: #BF1E23;
     font-size: 27px;
     font-family: "Nunito", sans-serif;
-    float: right;
+    float: left;
     font-weight: 700;
     width: 100%;
     margin-bottom: 0.56rem;
@@ -22,7 +22,7 @@
     float:left;
     padding-left:40px;
     height: medium;
-  
+    
   }
   .img{
     height: 150px;
@@ -49,6 +49,7 @@
   border-radius: 50%;
   display: inline-block;
   text-align:right;
+  margin-right:30% ;
 }
 
 
