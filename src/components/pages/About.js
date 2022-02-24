@@ -94,13 +94,11 @@ function Aboutus() {
                     </div>
                 </div>
             </section>
-            <center>
-                <h1 className="main-heading">Managment</h1>
-            </center>
             <section className="section">
                 <div className="container">
                     <div className="row">
                         <div class="col-sm-9">
+                        <h1 className="main-heading">Managment</h1>
                             <p className="text">
                                 <div className="images">
                                     <span className="person-image mb-2">
