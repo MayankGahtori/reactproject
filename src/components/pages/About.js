@@ -167,6 +167,7 @@ function Aboutus() {
                     </div>
                 </div>
         </section>
+        
         </section>  
     );
 }
