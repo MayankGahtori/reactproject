@@ -220,8 +220,12 @@ function Aboutus() {
             <section className="section">
                 <div className="container">
                     <div className="row">
+                    <h1 className="main-heading">Partners and Associates</h1>
+                    <br/>
+                    <br/>
+
                         <div class="text-left">
-                        <h4 className="main-heading">Chandigarh University</h4>
+                        <h4 >Chandigarh University</h4>
                             <p className="text">
                                 <img src={Slider10} className="slider" alt="..." />
                                
@@ -235,7 +239,7 @@ function Aboutus() {
                         <div class="text-right"> 
                         <br/>
                         <br/>
-                        <h4 className="main-heading">Sewapoint</h4>
+                        <h4>Sewapoint</h4>
                         <p className="text">
                         <img src={Slider11} className="im" alt="..." />
                         Technology company which is based on Information Technology enabled Services. 
@@ -243,8 +247,9 @@ function Aboutus() {
                         Bottom of the Pyramid, particularly<br/> in the rural areas.
                         </p>
                         </div>
+                        
                         <div class="text-left"> 
-                        <h4 className="main-heading">CU - TBI</h4>
+                        <h4>CU - TBI</h4>
                         <p className="text">
                         <img src={Slider12} className="sli" alt="..." />
                         Technology Business Incubator is an innovative platform offering mentorship and financial<br/>
@@ -254,8 +259,9 @@ function Aboutus() {
                         turn them into valuable business propositions.
                         </p>
                         </div>
+                        
                         <div class="text-right"> 
-                        <h4 className="main-heading">Smart Solution Technology (SSTech)</h4>
+                        <h4>Smart Solution Technology (SSTech)</h4>
                         <p className="text">
                         <img src={Slider13} className="im" alt="..." />
                         It is a IT company which provides all the all kinds of OEM services to boost your ecosystem web 
@@ -265,7 +271,7 @@ function Aboutus() {
                         </p>
                         </div>
                         <div class="text-left"> 
-                        <h4 className="main-heading">Harpal News</h4>
+                        <h4>Harpal News</h4>
                         <p className="text">
                         <img src={Slider14} className="sli" alt="..." />
                         Harpal News is a technology website which not only focuses on the emerging technologies 
@@ -281,7 +287,7 @@ function Aboutus() {
                         <div class="text-right">
                             <br/>
                             <br/>
-                            <h4 className="main-heading">CUEats</h4>
+                            <h4>CUEats</h4>
                             <p className="text">
                                 <img src={Slider15} className="im" alt=""/>
                                 IA food delivery startup for campuses. Get hot fresh food deivered directly to your hostel doorstep. 
@@ -292,7 +298,7 @@ function Aboutus() {
                         <div class="text-left">
                             <br/>
                             <br/>
-                            <h4 className="main-heading">CompareSathi</h4>
+                            <h4>CompareSathi</h4>
                             <p class="text">
                             <img src={Slider16} className="sli" alt=""/>
                             <br/>
