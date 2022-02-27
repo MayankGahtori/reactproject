@@ -15,7 +15,7 @@
   .text{
     font-size:20px;
     text-align:justify;
-    height: large;
+    height:medium;
     
   }
   .image{
@@ -77,27 +77,31 @@
   text-align: center;
 }
 .ig{
-    height: 130px;
-    width: 130px;
+    height: 150px;
+    width: 150px;
     border: solid 5px #BF1E23;
     border-radius: 50%;
     display: inline-block;
-    text-align:center;
-
-    
+    text-align:left;
+    overflow: hidden; 
   }
-  .h3{
-    font-size: 18px;
+  .content{
+    font-size:20px;
+    text-align:justify;
+    height:medium;
+  }
+  .person {
+    font-size: 22px;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: Uppercase;
     color: #BF1E23;
-    margin-bottom: 0;
     line-height: 27px;
-    margin-right: 10px;
-    font-family: "Open Sans", sans-serif;
-    float: left;
-    width: 100%;
+    text-align: right;
+    margin-right: 75%;
+
   }
+  
+  
 
 
 
