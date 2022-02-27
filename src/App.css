@@ -87,10 +87,18 @@
     text-align:left;
     overflow: hidden; 
   }
-  .content{
-    flex: 0 0 25%;
-    max-width: 25%;
+  .im{
     float: right;
+    padding-left:40px;
+    height: medium;
+  }
+  .slider{
+    float: left;
+  }
+  .sli{
+    float: left;
+    padding-left:40px;
+    height: large;
   }
 
   
