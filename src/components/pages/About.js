@@ -175,7 +175,7 @@ function Aboutus() {
                         
                     <h1 className="main-heading">Concile of Inovators</h1>
                         <div class="text-center">
-                            <img src={nilesh} className="img" alt="Avatar"/>
+                            <img src={nilesh} className="imgs" alt="Avatar"/>
                             <h5>Nilesh Sinha</h5>
                             
                             <p className="text">
@@ -183,7 +183,7 @@ function Aboutus() {
                             ecosystem, specially in India and Asia Pacific. Specialized in networking and communicating with institutions 
                             and authorities and recipient of 3rd position in the International Innovation Fair 2017, Vizag.
                             </p>
-                            <img src={geetika} className="img" alt="Avatar"/>
+                            <img src={geetika} className="imgs" alt="Avatar"/>
                             <h5>Er. Geetika Pandey</h5>
                             <p className="text">
                             A Technology enthusiast, Er. Geetika Pandey was one of the top scorers of her city during matriculation examination. 
@@ -191,14 +191,14 @@ function Aboutus() {
                             Apart from studies, she is extremely friendly as well as amaible in nature and has well handles the onboarding 
                             and operational process of CGI at such a young age. She is also one of the few founding members of CGI
                             </p>
-                            <img src={priyanka} className="img" alt="Avatar"/>
+                            <img src={priyanka} className="imgs" alt="Avatar"/>
                             <h5>Priyanka Pandey</h5>
                             <p className="text">
                             She evaluates her nature of work and on the off chance that she is not fulfilled again she gets to her expertise until to nature of work.
                             CGI is platform where all innovators are meet and she is the one of them. Priyanka is a womentrepreneur with vision , 
                             mission and lessons to grow with CGI.
                             </p>
-                            <img src={Sailesh} className="img" alt="Avatar"/>
+                            <img src={Sailesh} className="imgs" alt="Avatar"/>
                             <h5>Sailesh Sinha</h5>
                             <p className="text">
                             A mechanical engineering graduate. Has interest in teaching and public policy. When not doing that you can find him going through all kinds of 

@@ -41,7 +41,9 @@
   max-width: 25%;
   float: right;
 }
-
+.imgs{
+  border-radius: 50%;
+}
 
 .person-image {
   height: 250px;
