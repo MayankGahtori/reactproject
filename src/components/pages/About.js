@@ -1,27 +1,29 @@
 import React from 'react';
-import Slider1 from '../images/Slider1.jpg'
-import Slider2 from '../images/Slider2.jpg'
-import Slider3 from '../images/Slider3.jpg'
-import Slider4 from '../images/Slider4.jpg'
-import Slider5 from '../images/Slider5.jpg'
-import Slider6 from '../images/Slider6.jpg'
-import Slider7 from '../images/Slider7.jpg'
-import Slider8 from '../images/Slider8.jpg'
-import Slider9 from '../images/Slider9.jpg'
-import nilesh from '../images/nilesh.jpg'
-import geetika from '../images/geetika.jpg'
-import priyanka from '../images/priyanka.jpg'
-import Sailesh from '../images/Sailesh.jpg'
-import Slider10 from '../images/Slider10.jpg'
-import Slider11 from '../images/Slider11.jpg'
-import Slider12 from '../images/Slider12.jpg'
-import Slider13 from '../images/Slider13.jpg'
-import Slider14 from '../images/Slider14.jpg'
-import Slider15 from '../images/Slider15.jpg'
-import Slider16 from '../images/Slider16.jpg'
+import Slider1 from '../images/Slider1.jpg';
+import Slider2 from '../images/Slider2.jpg';
+import Slider3 from '../images/Slider3.jpg';
+import Slider4 from '../images/Slider4.jpg';
+import Slider5 from '../images/Slider5.jpg';
+import Slider6 from '../images/Slider6.jpg';
+import Slider7 from '../images/Slider7.jpg';
+import Slider8 from '../images/Slider8.jpg';
+import Slider9 from '../images/Slider9.jpg';
+import nilesh from '../images/nilesh.jpg';
+import geetika from '../images/geetika.jpg';
+import priyanka from '../images/priyanka.jpg';
+import Sailesh from '../images/Sailesh.jpg';
+import Slider10 from '../images/Slider10.jpg';
+import Slider11 from '../images/Slider11.jpg';
+import Slider12 from '../images/Slider12.jpg';
+import Slider13 from '../images/Slider13.jpg';
+import Slider14 from '../images/Slider14.jpg';
+import Slider15 from '../images/Slider15.jpg';
+import Slider16 from '../images/Slider16.jpg';
+
 function Aboutus() {
     return(
-      <section className="section">
+       
+            <section className="section">
                 <div className="container">
                     <div className="row">
                         <div class="text-right">
@@ -312,6 +314,8 @@ function Aboutus() {
                 </div>  
             </section>
         </section>  
+        
+      
     );
 }
 export default Aboutus;
