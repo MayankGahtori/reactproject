@@ -1,4 +1,5 @@
 import React from 'react';
+import R from '../images/R.png';
 
 function Navbar() {
     return(
@@ -6,7 +7,7 @@ function Navbar() {
       <nav class="navbar navbar-expand-lg navbar-light ">
           <div class="container">
               {/* <a class="navbar-brand" href="#">Navbar</a> */}
-              <img src={IMG} class="img-fluid"></img>
+              <img src={R} alt=""/>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
