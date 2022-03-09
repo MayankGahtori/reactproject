@@ -68,7 +68,7 @@ function Footer() {
             <div className='col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
-                <i className='fas fa-home me-3'></i> New York, NY 10012, US
+                <i className='fas fa-home me-3'></i>Chandigarh University CU-TBI office, Gharuan, Punjab 140413
               </p>
               <p>
                 <i className='fas fa-envelope me-3'></i>
@@ -86,9 +86,9 @@ function Footer() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2021 Copyright:
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
+        © 2022 Copyright:
+        <a className='text-reset fw-bold' href='http://www.cgiconnects.ml/'>
+          cgiconnects.ml
         </a>
       </div>
     </MDBFooter>
