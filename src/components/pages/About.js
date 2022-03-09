@@ -315,8 +315,6 @@ function Aboutus() {
             </section>
             
         </section>  
-        
-      
     );
 }
 export default Aboutus;
