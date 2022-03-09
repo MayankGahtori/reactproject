@@ -3,31 +3,34 @@ import { MDBFooter } from 'mdb-react-ui-kit';
 
 function Footer() {
   return (
-    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+    <MDBFooter bgColor='dark' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
           <span>Get connected with us on social networks:</span>
         </div>
 
         <div>
-          <a href='/' className='me-4 text-reset'>
-            <i className='fab fa-facebook-f'></i>
-          </a>
-          <a href='/' className='me-4 text-reset'>
-            <i className='fab fa-twitter'></i>
-          </a>
-          <a href='/' className='me-4 text-reset'>
-            <i className='fab fa-google'></i>
-          </a>
-          <a href='/' className='me-4 text-reset'>
-            <i className='fab fa-instagram'></i>
-          </a>
-          <a href='/' className='me-4 text-reset'>
-            <i className='fab fa-linkedin'></i>
-          </a>
-          <a href='/' className='me-4 text-reset'>
-            <i className='fab fa-github'></i>
-          </a>
+       
+       
+<a  href="#!" role="button">
+  <i class="fab fa-facebook-f fa-lg"></i>
+</a>
+
+<a  href="#!" role="button">
+  <i class="fab fa-twitter fa-lg"></i>
+</a>
+
+
+<a  href="#!" role="button">
+  <i class="fab fa-google fa-lg"></i>
+</a>
+
+
+<a  href="#!" role="button">
+  <i class="fab fa-instagram fa-lg"></i>
+</a>
+
+
         </div>
       </section>
 

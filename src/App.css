@@ -112,6 +112,18 @@
   .text-center text-white{
     background-color: #f1f1f1;
   }
+  .fab fa-facebook-f fa-lg{
+    color: #3b5998;
+  }
+  .fab fa-twitter  fa-lg{
+    color: #55acee;
+  }
+  .fab fa-google  fa-lg{
+    color: #dd4b39;
+  }
+  .fab fa-instagram fa-lg{
+    color: #ac2bac;
+  }
 
   
   
