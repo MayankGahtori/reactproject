@@ -109,6 +109,9 @@
   .text-center p-3{
     background-color: rgba(0, 0, 0, 0.2);
   }
+  .text-center text-white{
+    background-color: #f1f1f1;
+  }
 
   
   
