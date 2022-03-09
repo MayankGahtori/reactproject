@@ -22,6 +22,7 @@
     float:left;
     padding-left:40px;
     height: medium;
+    width: 50%;
     
   
   }
@@ -92,6 +93,9 @@
     padding-left:40px;
     height: medium;
   }
+  .u{
+    margin-right :65%;
+  }
   .slider{
     float: left;
   }
@@ -99,6 +103,13 @@
     float: left;
     padding-left:40px;
     height: large;
+    width: 30%;
+  }
+  .sliu{
+    float: left;
+    padding-left:40px;
+    height: medium;
+    
   }
   .navbar-brand me-2{
     margin-top: -1px;

@@ -253,7 +253,7 @@ function Aboutus() {
                         <div class="text-left"> 
                         <h4>CU - TBI</h4>
                         <p className="text">
-                        <img src={Slider12} className="sli" alt="..." />
+                        <img src={Slider12} className="sliu" alt="..." />
                         Technology Business Incubator is an innovative platform offering mentorship and financial<br/>
                         support to passionate individuals aspiring to be entrepreneurs. TBI is accelerating the<br/>
                         development of young entrepreneurial start-ups from early to mid-stage entrepreneurial<br/>
@@ -263,7 +263,7 @@ function Aboutus() {
                         </div>
                         
                         <div class="text-right"> 
-                        <h4 className="">Smart Solution Technology (SSTech)</h4>
+                        <h4 className="u">Smart Solution Technology (SSTech)</h4>
                         <p className="text">
                         <img src={Slider13} className="im" alt="..." />
                         It is a IT company which provides all the all kinds of OEM services to boost your ecosystem web 

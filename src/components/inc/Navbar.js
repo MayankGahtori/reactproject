@@ -11,6 +11,7 @@ function Navbar() {
       <img
         src={R}
         height="75"
+      
         alt="MDB Logo"
         loading="lazy"
         
