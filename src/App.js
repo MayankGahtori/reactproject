@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import { MDBFooter } from 'mdb-react-ui-kit';
 import About from './components/pages/About';
 import Navbar from './components/inc/Navbar';
 import Footer from'./components/inc/Footer';
