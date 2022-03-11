@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 import About from './components/pages/About';
-import Navbar from './components/inc/Navbar';
-import Footer from'./components/inc/Footer';
+
 
 
 import {BrowserRouter as Router} from 'react-router-dom';
@@ -11,9 +10,9 @@ function App() {
     <Router>
       <div>
      
-        <Navbar/>
+       
         <About/>
-        <Footer/>
+        
       </div>
     </Router>
     
