@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import About from './components/pages/About';
-
+import Dashboard from
 
 
 import {BrowserRouter as Router} from 'react-router-dom';
