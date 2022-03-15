@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Dashboard from './Dashboard'
 import About from './components/pages/About';
 
 
@@ -9,7 +10,7 @@ function App() {
     <Router>
       <div>
      
-       
+       <Dashboard/>
         <About/>
         
       </div>
