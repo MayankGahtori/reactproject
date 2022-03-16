@@ -6,7 +6,7 @@ import "./scrollbar.css";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LanguageIcon from '@mui/icons-material/Language';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import InstagramIcony from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import ButtonBase from '@mui/material/ButtonBase';
@@ -14,7 +14,7 @@ import { Button, Alert } from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, useHistory } from "react-router-dom"
 import SpeedDial from '@mui/material/SpeedDial';
-import ReactToPrint, { PrintContextConsumer } from 'react-to-print';
+
 import SpeedDialAction from '@mui/material/SpeedDialAction';
 import '@coreui/coreui/dist/css/coreui.min.css'
 import { CImage } from '@coreui/react'
