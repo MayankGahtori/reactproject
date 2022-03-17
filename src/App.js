@@ -4,29 +4,17 @@ import Dashboard from './Dashboard';
 import About from './components/pages/About';
 
 
-import {
-  BrowserRouter as Router,
-  
-  
-  
-} from "react-router-dom";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 function App() {
   return (
-    <div>
-      <Router exact path="/" component={<Dashboard/>}></Router>
-      <Router path="/about" component={<About/>}></Router>
-    </div>
-      
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Dashboard />}>
+          <Route index element={<About />} />
           
-          
-        
-     
-       
-        
-        
-      
-  
-    
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
