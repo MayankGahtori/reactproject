@@ -25,7 +25,7 @@ export default function Appbar() {
                                data-toggle="modal">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a style={{color: 'white'}} className="nav-link" href="About.js" data-target="#myModal"
+                            <a style={{color: 'white'}} className="nav-link" href="" data-target="#myModal"
                                data-toggle="modal">About </a>
                         </li>
 
