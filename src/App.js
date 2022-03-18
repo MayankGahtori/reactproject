@@ -1,22 +1,17 @@
-import React from 'react';
-import './App.css';
-import Dashboard from './Dashboard';
-import About from './components/pages/About';
+import * as React from 'react';
+import Dashboard from './Dashboard'
 
 
-import {BrowserRouter, Routes, Route} from "react-router-dom";
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Dashboard />}>
-          <Route index element={<About />} />
-          
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  );
+
+    return (
+<div>
+    <Dashboard/>
+</div>
+
+    )
 }
 
-export default App;
 
+
+export default App;
