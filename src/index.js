@@ -4,8 +4,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
 
-import 'mdbootstrap/css/bootstrap.min.css';
-import 'mdbootstrap/js/popper.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
 ReactDOM.render(
   <React.StrictMode>
    <App />
